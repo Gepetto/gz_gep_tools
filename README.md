@@ -1,3 +1,8 @@
+This repository was motivated by the need to show that it was possible to make fast control loop with gazebo (gz) without restarting complex launch files over and over.
+Gazebo as a system simulator is allowing to test a full control software stack. While it is well motivated for integrators it is however quite time consuming when one
+wants to test quickly a new motion generation scheme.
+At the same time gz since Harmonic offers the possibility to test various dynamical simulators such as bullet, bullet feathersone or DART which is of high interest for people interested in new dynamical simulators.
+
 
 # Installation:
 

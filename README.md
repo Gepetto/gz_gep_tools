@@ -1,7 +1,17 @@
+# Introduction
+
 This repository was motivated by the need to show that it was possible to make fast control loop with gazebo (gz) without restarting complex launch files over and over.
 Gazebo as a system simulator is allowing to test a full control software stack. While it is well motivated for integrators it is however quite time consuming when one
 wants to test quickly a new motion generation scheme.
 At the same time gz since Harmonic offers the possibility to test various dynamical simulators such as bullet, bullet feathersone or DART which is of high interest for people interested in new dynamical simulators.
+
+## Plugins
+For this this repository offers two plugins: Contact and ApplyJointForces.
+The first one is a simple test to better understand what contact forces are send to the sensors plugin.
+The second plugin provides a vector specification of the force applied to the joints avoiding race conditions.
+
+## Simple perception action loop
+This repository offers a simple way to perform an action/perception loop in C++ with Gazebo.
 
 
 # Installation:
